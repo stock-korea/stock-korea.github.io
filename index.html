@@ -85,7 +85,7 @@
                 <h4><font color="gold">[급등황제]</font> 상한가 급등기회, 하루 2만원에 누리자!<br>
                 <a href="item/1/index.html"; style="line-height: 180%;">가입하기</a></h4>
                 <h4><font color="gold">[하루1%]</font> 기관의 어깨에 올라타라! 하루 1%, 한달 20%!<br>
-                <a href="item/3/index.html"; style="line-height: 180%;">가입하기</a></h4>
+                <a href="item/3/index.html"; style="line-height: 180%;">가입하기</a><font color=red><blink><b>New!</b></blink></font></h4>
                 <h4><font color="gold">[마이클권]</font> 가상화폐 대표 전문가, 마침내 한국상륙!<br>
                 <a href="item/2/index.html"; style="line-height: 180%;">가입하기</a></h4>
                 <h5><i>신규 전문가 계속 추가 중!</i></h5>
@@ -154,6 +154,18 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
+    
+    <!-- Custom scripts for 깜빡이는 텍스트 효과 -->
+    <script language="JavaScript"> 
+        function doBlink() { 
+            var blink = document.all.tags("BLINK") 
+            for (var i=0; i < blink.length; i++) 
+                blink[i].style.visibility = blink[i].style.visibility == "" ? "hidden" : "" 
+        } function startBlink() { 
+            if (document.all) 
+                setInterval("doBlink()",800) 
+        } window.onload = startBlink; 
+    </script>
 
   </body>
 
