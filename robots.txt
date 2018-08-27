@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap:https://www.stock-korea.com/sitemap.xml
